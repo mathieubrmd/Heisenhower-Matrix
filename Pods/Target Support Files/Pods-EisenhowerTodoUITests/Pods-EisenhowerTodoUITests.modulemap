@@ -1,0 +1,6 @@
+framework module Pods_EisenhowerTodoUITests {
+  umbrella header "Pods-EisenhowerTodoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

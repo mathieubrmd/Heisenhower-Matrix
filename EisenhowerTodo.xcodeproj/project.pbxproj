@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		607B7743202C939200BB3894 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607B7742202C939200BB3894 /* PageCell.swift */; };
+		607B7745202C9BA700BB3894 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607B7744202C9BA700BB3894 /* Page.swift */; };
+		607B7747202CA1B700BB3894 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607B7746202CA1B700BB3894 /* Task.swift */; };
+		607B774A202EE79000BB3894 /* SwipingControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607B7749202EE79000BB3894 /* SwipingControllerExtension.swift */; };
+		607B774C202EE85800BB3894 /* SwipingController+UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607B774B202EE85800BB3894 /* SwipingController+UICollectionView.swift */; };
+		607B774E202EF0F000BB3894 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607B774D202EF0F000BB3894 /* UIColorExtension.swift */; };
+		607B77502032498500BB3894 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607B774F2032498500BB3894 /* TasksViewController.swift */; };
 		60D725922025F97D00761D3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D725912025F97D00761D3E /* AppDelegate.swift */; };
-		60D725942025F97D00761D3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D725932025F97D00761D3E /* ViewController.swift */; };
 		60D725972025F97D00761D3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D725952025F97D00761D3E /* Main.storyboard */; };
 		60D725992025F97D00761D3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60D725982025F97D00761D3E /* Assets.xcassets */; };
 		60D7259C2025F97D00761D3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D7259A2025F97D00761D3E /* LaunchScreen.storyboard */; };
 		60D725A72025F97D00761D3E /* EisenhowerTodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D725A62025F97D00761D3E /* EisenhowerTodoTests.swift */; };
 		60D725B22025F97D00761D3E /* EisenhowerTodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D725B12025F97D00761D3E /* EisenhowerTodoUITests.swift */; };
+		60D725C52025FA8600761D3E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D725C42025FA8600761D3E /* Constants.swift */; };
+		60DAB6C5202600A300C18547 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60DAB6C4202600A300C18547 /* GoogleService-Info.plist */; };
+		60F0A99B202784AB0000E510 /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F0A99A202784AB0000E510 /* SwipingController.swift */; };
+		7749A3EB8FC433FD47578CE9 /* Pods_EisenhowerTodoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C252CA3EED7E5DC4F8CBDC9 /* Pods_EisenhowerTodoTests.framework */; };
+		7DF46C43882672A5EA87C1B2 /* Pods_EisenhowerTodo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BCDE47E5634BFADAB7687A /* Pods_EisenhowerTodo.framework */; };
+		ABE2595821C93F541181E8D6 /* Pods_EisenhowerTodoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B29851CCD86C4EEECB09790 /* Pods_EisenhowerTodoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +46,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02B42B3F4458CDF64D403644 /* Pods-EisenhowerTodoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EisenhowerTodoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EisenhowerTodoUITests/Pods-EisenhowerTodoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		02F658AF98D1DE5F30C34B62 /* Pods-EisenhowerTodo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EisenhowerTodo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EisenhowerTodo/Pods-EisenhowerTodo.debug.xcconfig"; sourceTree = "<group>"; };
+		243B482B4B10F37ED244DCD6 /* Pods-EisenhowerTodo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EisenhowerTodo.release.xcconfig"; path = "Pods/Target Support Files/Pods-EisenhowerTodo/Pods-EisenhowerTodo.release.xcconfig"; sourceTree = "<group>"; };
+		2C252CA3EED7E5DC4F8CBDC9 /* Pods_EisenhowerTodoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EisenhowerTodoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		607B7742202C939200BB3894 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		607B7744202C9BA700BB3894 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		607B7746202CA1B700BB3894 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		607B7749202EE79000BB3894 /* SwipingControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingControllerExtension.swift; sourceTree = "<group>"; };
+		607B774B202EE85800BB3894 /* SwipingController+UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwipingController+UICollectionView.swift"; sourceTree = "<group>"; };
+		607B774D202EF0F000BB3894 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		607B774F2032498500BB3894 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
 		60D7258E2025F97D00761D3E /* EisenhowerTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EisenhowerTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60D725912025F97D00761D3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		60D725932025F97D00761D3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		60D725962025F97D00761D3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		60D725982025F97D00761D3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60D7259B2025F97D00761D3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +69,14 @@
 		60D725AD2025F97D00761D3E /* EisenhowerTodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EisenhowerTodoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60D725B12025F97D00761D3E /* EisenhowerTodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EisenhowerTodoUITests.swift; sourceTree = "<group>"; };
 		60D725B32025F97D00761D3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60D725C42025FA8600761D3E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		60DAB6C4202600A300C18547 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		60F0A99A202784AB0000E510 /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
+		6BA5CD4042ECF1931D7BEC8E /* Pods-EisenhowerTodoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EisenhowerTodoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EisenhowerTodoUITests/Pods-EisenhowerTodoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B29851CCD86C4EEECB09790 /* Pods_EisenhowerTodoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EisenhowerTodoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8826077BF8F6DCCA4F52F129 /* Pods-EisenhowerTodoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EisenhowerTodoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EisenhowerTodoTests/Pods-EisenhowerTodoTests.release.xcconfig"; sourceTree = "<group>"; };
+		E7919C5A459D5D2CDC2805A7 /* Pods-EisenhowerTodoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EisenhowerTodoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EisenhowerTodoTests/Pods-EisenhowerTodoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1BCDE47E5634BFADAB7687A /* Pods_EisenhowerTodo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EisenhowerTodo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DF46C43882672A5EA87C1B2 /* Pods_EisenhowerTodo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7749A3EB8FC433FD47578CE9 /* Pods_EisenhowerTodoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +100,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABE2595821C93F541181E8D6 /* Pods_EisenhowerTodoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24CB6F67E574FA5CC18764AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1BCDE47E5634BFADAB7687A /* Pods_EisenhowerTodo.framework */,
+				2C252CA3EED7E5DC4F8CBDC9 /* Pods_EisenhowerTodoTests.framework */,
+				7B29851CCD86C4EEECB09790 /* Pods_EisenhowerTodoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		607B7748202EE77B00BB3894 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				607B7749202EE79000BB3894 /* SwipingControllerExtension.swift */,
+				607B774B202EE85800BB3894 /* SwipingController+UICollectionView.swift */,
+				607B774D202EF0F000BB3894 /* UIColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		60D725852025F97D00761D3E = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +134,8 @@
 				60D725A52025F97D00761D3E /* EisenhowerTodoTests */,
 				60D725B02025F97D00761D3E /* EisenhowerTodoUITests */,
 				60D7258F2025F97D00761D3E /* Products */,
+				937287DA45FC7B2E182B58D4 /* Pods */,
+				24CB6F67E574FA5CC18764AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +152,19 @@
 		60D725902025F97D00761D3E /* EisenhowerTodo */ = {
 			isa = PBXGroup;
 			children = (
+				607B7748202EE77B00BB3894 /* Extensions */,
+				60D725C32025FA1A00761D3E /* Helpers */,
+				60D725C22025FA1700761D3E /* Stores */,
+				60D725C12025FA1300761D3E /* Controllers */,
+				60D725C02025FA0B00761D3E /* Views */,
+				60D725BF2025F9EE00761D3E /* Models */,
 				60D725912025F97D00761D3E /* AppDelegate.swift */,
-				60D725932025F97D00761D3E /* ViewController.swift */,
 				60D725952025F97D00761D3E /* Main.storyboard */,
 				60D725982025F97D00761D3E /* Assets.xcassets */,
 				60D7259A2025F97D00761D3E /* LaunchScreen.storyboard */,
 				60D7259D2025F97D00761D3E /* Info.plist */,
+				60DAB6C4202600A300C18547 /* GoogleService-Info.plist */,
+				60D725C42025FA8600761D3E /* Constants.swift */,
 			);
 			path = EisenhowerTodo;
 			sourceTree = "<group>";
@@ -125,6 +187,59 @@
 			path = EisenhowerTodoUITests;
 			sourceTree = "<group>";
 		};
+		60D725BF2025F9EE00761D3E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				607B7744202C9BA700BB3894 /* Page.swift */,
+				607B7746202CA1B700BB3894 /* Task.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		60D725C02025FA0B00761D3E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				607B7742202C939200BB3894 /* PageCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		60D725C12025FA1300761D3E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				60F0A99A202784AB0000E510 /* SwipingController.swift */,
+				607B774F2032498500BB3894 /* TasksViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		60D725C22025FA1700761D3E /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		60D725C32025FA1A00761D3E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		937287DA45FC7B2E182B58D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02F658AF98D1DE5F30C34B62 /* Pods-EisenhowerTodo.debug.xcconfig */,
+				243B482B4B10F37ED244DCD6 /* Pods-EisenhowerTodo.release.xcconfig */,
+				E7919C5A459D5D2CDC2805A7 /* Pods-EisenhowerTodoTests.debug.xcconfig */,
+				8826077BF8F6DCCA4F52F129 /* Pods-EisenhowerTodoTests.release.xcconfig */,
+				6BA5CD4042ECF1931D7BEC8E /* Pods-EisenhowerTodoUITests.debug.xcconfig */,
+				02B42B3F4458CDF64D403644 /* Pods-EisenhowerTodoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +247,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60D725B62025F97D00761D3E /* Build configuration list for PBXNativeTarget "EisenhowerTodo" */;
 			buildPhases = (
+				34B09C7E978A8816828523E4 /* [CP] Check Pods Manifest.lock */,
 				60D7258A2025F97D00761D3E /* Sources */,
 				60D7258B2025F97D00761D3E /* Frameworks */,
 				60D7258C2025F97D00761D3E /* Resources */,
+				4A7DC5820A02521DB16D0794 /* [CP] Embed Pods Frameworks */,
+				3AFF945A7A3007D121FF3151 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +267,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60D725B92025F97D00761D3E /* Build configuration list for PBXNativeTarget "EisenhowerTodoTests" */;
 			buildPhases = (
+				B3119831203FA1B82B294FA6 /* [CP] Check Pods Manifest.lock */,
 				60D7259E2025F97D00761D3E /* Sources */,
 				60D7259F2025F97D00761D3E /* Frameworks */,
 				60D725A02025F97D00761D3E /* Resources */,
+				E472A4D775A30CE7C58C0339 /* [CP] Embed Pods Frameworks */,
+				0473A639BA354D66D60D3F2F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +288,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60D725BC2025F97D00761D3E /* Build configuration list for PBXNativeTarget "EisenhowerTodoUITests" */;
 			buildPhases = (
+				AD53471108549839FF5E17F1 /* [CP] Check Pods Manifest.lock */,
 				60D725A92025F97D00761D3E /* Sources */,
 				60D725AA2025F97D00761D3E /* Frameworks */,
 				60D725AB2025F97D00761D3E /* Resources */,
+				51B60F97C51EE27A0291F648 /* [CP] Embed Pods Frameworks */,
+				578BC2B349AFE6510D3AAC19 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +357,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60D7259C2025F97D00761D3E /* LaunchScreen.storyboard in Resources */,
+				60DAB6C5202600A300C18547 /* GoogleService-Info.plist in Resources */,
 				60D725992025F97D00761D3E /* Assets.xcassets in Resources */,
 				60D725972025F97D00761D3E /* Main.storyboard in Resources */,
 			);
@@ -254,13 +379,173 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0473A639BA354D66D60D3F2F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EisenhowerTodoTests/Pods-EisenhowerTodoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34B09C7E978A8816828523E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EisenhowerTodo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AFF945A7A3007D121FF3151 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EisenhowerTodo/Pods-EisenhowerTodo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A7DC5820A02521DB16D0794 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EisenhowerTodo/Pods-EisenhowerTodo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EisenhowerTodo/Pods-EisenhowerTodo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51B60F97C51EE27A0291F648 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EisenhowerTodoUITests/Pods-EisenhowerTodoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		578BC2B349AFE6510D3AAC19 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EisenhowerTodoUITests/Pods-EisenhowerTodoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD53471108549839FF5E17F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EisenhowerTodoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3119831203FA1B82B294FA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EisenhowerTodoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E472A4D775A30CE7C58C0339 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EisenhowerTodoTests/Pods-EisenhowerTodoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		60D7258A2025F97D00761D3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60D725942025F97D00761D3E /* ViewController.swift in Sources */,
+				607B7743202C939200BB3894 /* PageCell.swift in Sources */,
+				607B774A202EE79000BB3894 /* SwipingControllerExtension.swift in Sources */,
+				607B774C202EE85800BB3894 /* SwipingController+UICollectionView.swift in Sources */,
+				607B7745202C9BA700BB3894 /* Page.swift in Sources */,
 				60D725922025F97D00761D3E /* AppDelegate.swift in Sources */,
+				60D725C52025FA8600761D3E /* Constants.swift in Sources */,
+				607B774E202EF0F000BB3894 /* UIColorExtension.swift in Sources */,
+				607B77502032498500BB3894 /* TasksViewController.swift in Sources */,
+				607B7747202CA1B700BB3894 /* Task.swift in Sources */,
+				60F0A99B202784AB0000E510 /* SwipingController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,11 +709,13 @@
 		};
 		60D725B72025F97D00761D3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02F658AF98D1DE5F30C34B62 /* Pods-EisenhowerTodo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9Q4H85X97E;
 				INFOPLIST_FILE = EisenhowerTodo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mathieu.EisenhowerTodo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,11 +726,13 @@
 		};
 		60D725B82025F97D00761D3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 243B482B4B10F37ED244DCD6 /* Pods-EisenhowerTodo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9Q4H85X97E;
 				INFOPLIST_FILE = EisenhowerTodo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mathieu.EisenhowerTodo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -454,6 +743,7 @@
 		};
 		60D725BA2025F97D00761D3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7919C5A459D5D2CDC2805A7 /* Pods-EisenhowerTodoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +761,7 @@
 		};
 		60D725BB2025F97D00761D3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8826077BF8F6DCCA4F52F129 /* Pods-EisenhowerTodoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +779,7 @@
 		};
 		60D725BD2025F97D00761D3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BA5CD4042ECF1931D7BEC8E /* Pods-EisenhowerTodoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +796,7 @@
 		};
 		60D725BE2025F97D00761D3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02B42B3F4458CDF64D403644 /* Pods-EisenhowerTodoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
